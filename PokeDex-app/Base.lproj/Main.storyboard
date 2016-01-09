@@ -50,6 +50,7 @@
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="501" translatesAutoresizingMaskIntoConstraints="NO" id="E5g-t9-wF5">
                                                     <rect key="frame" x="0.0" y="0.0" width="110" height="87"/>
+                                                    <color key="backgroundColor" white="1" alpha="0.5199799408783784" colorSpace="calibratedWhite"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acM-t1-9Rx">
                                                     <rect key="frame" x="0.0" y="89" width="110" height="21"/>
@@ -64,7 +65,6 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
-                                        <color key="backgroundColor" white="1" alpha="0.69657939189189189" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="acM-t1-9Rx" firstAttribute="top" secondItem="E5g-t9-wF5" secondAttribute="bottom" id="3u9-0A-Ukg"/>
                                             <constraint firstAttribute="bottom" secondItem="acM-t1-9Rx" secondAttribute="bottom" id="Ii3-ox-Wh5"/>
