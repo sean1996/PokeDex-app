@@ -16,6 +16,8 @@
 		120EE2281C40F5FF00436544 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120EE2271C40F5FF00436544 /* Pokemon.swift */; };
 		126DE34F1C417976003E001C /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DE34E1C417976003E001C /* PokeCell.swift */; };
 		126DE3511C418437003E001C /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DE3501C418437003E001C /* csv.swift */; };
+		126DE3551C4189EC003E001C /* Pokemon-Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126DE3541C4189EC003E001C /* Pokemon-Solid.ttf */; };
+		126DE3571C418C6D003E001C /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 126DE3561C418C6D003E001C /* music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		120EE2271C40F5FF00436544 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		126DE34E1C417976003E001C /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 		126DE3501C418437003E001C /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		126DE3541C4189EC003E001C /* Pokemon-Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon-Solid.ttf"; sourceTree = "<group>"; };
+		126DE3561C418C6D003E001C /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 		126DE3531C418466003E001C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				126DE3561C418C6D003E001C /* music.mp3 */,
+				126DE3541C4189EC003E001C /* Pokemon-Solid.ttf */,
 				120EE2231C40F4CD00436544 /* pokemon.csv */,
 			);
 			name = Resources;
@@ -176,6 +182,8 @@
 			files = (
 				120EE21C1C40F05B00436544 /* LaunchScreen.storyboard in Resources */,
 				120EE2191C40F05B00436544 /* Assets.xcassets in Resources */,
+				126DE3571C418C6D003E001C /* music.mp3 in Resources */,
+				126DE3551C4189EC003E001C /* Pokemon-Solid.ttf in Resources */,
 				120EE2241C40F4CD00436544 /* pokemon.csv in Resources */,
 				120EE2171C40F05B00436544 /* Main.storyboard in Resources */,
 			);

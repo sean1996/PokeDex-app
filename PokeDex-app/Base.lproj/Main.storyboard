@@ -4,6 +4,11 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Pokemon-Solid.ttf">
+            <string>PokemonSolidNormal</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -22,8 +27,29 @@
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5SH-Ji-yCH">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="59"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Pokedex" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEM-CM-Hem">
+                                        <rect key="frame" x="202" y="13" width="196" height="46"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="128" id="4kJ-yD-Y1G"/>
+                                            <constraint firstAttribute="height" constant="39" id="J8n-A2-Xsz"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="PokemonSolidNormal" family="Pokemon Solid" pointSize="28"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBv-TI-HvK">
+                                        <rect key="frame" x="560" y="19" width="32" height="32"/>
+                                        <state key="normal" image="1"/>
+                                        <connections>
+                                            <action selector="audioButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0jN-zt-LNj"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" red="0.87507891410000005" green="0.3848063108" blue="0.3064470205" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="zEM-CM-Hem" firstAttribute="centerX" secondItem="5SH-Ji-yCH" secondAttribute="centerX" id="IkK-Hg-YWF"/>
+                                    <constraint firstAttribute="bottom" secondItem="zEM-CM-Hem" secondAttribute="bottom" constant="3" id="MJh-Le-rfP"/>
                                     <constraint firstAttribute="height" constant="59" id="gd8-m5-Kcq"/>
                                 </constraints>
                             </view>
@@ -108,10 +134,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="565" y="457"/>
+            <point key="canvasLocation" x="462" y="456"/>
         </scene>
     </scenes>
     <resources>
+        <image name="1" width="120" height="120"/>
         <image name="501" width="96" height="96"/>
         <image name="background" width="1920" height="1200"/>
     </resources>
