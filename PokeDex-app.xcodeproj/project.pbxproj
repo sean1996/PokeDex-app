@@ -18,6 +18,7 @@
 		126DE3511C418437003E001C /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DE3501C418437003E001C /* csv.swift */; };
 		126DE3551C4189EC003E001C /* Pokemon-Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126DE3541C4189EC003E001C /* Pokemon-Solid.ttf */; };
 		126DE3571C418C6D003E001C /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 126DE3561C418C6D003E001C /* music.mp3 */; };
+		126DE3591C41BEC2003E001C /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DE3581C41BEC2003E001C /* PokemonDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		126DE3501C418437003E001C /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		126DE3541C4189EC003E001C /* Pokemon-Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon-Solid.ttf"; sourceTree = "<group>"; };
 		126DE3561C418C6D003E001C /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		126DE3581C41BEC2003E001C /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				120EE2131C40F05B00436544 /* ViewController.swift */,
+				126DE3581C41BEC2003E001C /* PokemonDetailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				126DE34F1C417976003E001C /* PokeCell.swift in Sources */,
 				120EE2141C40F05B00436544 /* ViewController.swift in Sources */,
 				120EE2121C40F05B00436544 /* AppDelegate.swift in Sources */,
+				126DE3591C41BEC2003E001C /* PokemonDetailVC.swift in Sources */,
 				120EE2281C40F5FF00436544 /* Pokemon.swift in Sources */,
 				126DE3511C418437003E001C /* csv.swift in Sources */,
 			);
