@@ -17,6 +17,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="TTP-St-Lze">
+                                <rect key="frame" x="0.0" y="60" width="600" height="540"/>
+                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5SH-Ji-yCH">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="59"/>
                                 <color key="backgroundColor" red="0.87507891410000005" green="0.3848063108" blue="0.3064470205" alpha="1" colorSpace="calibratedRGB"/>
@@ -38,7 +41,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="7oM-Km-5pH">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="7oM-Km-5pH" customClass="PokeCell" customModule="PokeDex_app" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -71,12 +74,13 @@
                                             <constraint firstAttribute="trailing" secondItem="acM-t1-9Rx" secondAttribute="trailing" id="cwy-qM-AaV"/>
                                             <constraint firstAttribute="trailing" secondItem="E5g-t9-wF5" secondAttribute="trailing" id="m4F-S6-He6"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="nameLbl" destination="acM-t1-9Rx" id="Yyf-Zk-5Ot"/>
+                                            <outlet property="thumbImg" destination="E5g-t9-wF5" id="M7H-W4-MeN"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="TTP-St-Lze">
-                                <rect key="frame" x="0.0" y="60" width="600" height="540"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
